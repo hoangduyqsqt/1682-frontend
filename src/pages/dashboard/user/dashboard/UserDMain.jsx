@@ -17,11 +17,11 @@ const UserDMain = () => {
     }
 
     const data = {
-        labels: ['Total Payments', 'Total Reviews', 'Total Purchased Products'],
+        labels: ['Total Payments', ],
         datasets: [
             {
                 label: 'User Stats',
-                data: [stats.totalPayments, stats.totalReviews * 100, stats.totalPurchasedProducts * 100],
+                data: [stats.totalPayments, ],
                 backgroundColor: 'rgba(75, 192, 192, 0.2)',
                 borderColor:'rgba(75, 192, 192, 1)',
                 borderWidth: 1,
